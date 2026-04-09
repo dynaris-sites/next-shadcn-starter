@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@dynaris/widget':
-        specifier: ^1.1.1
-        version: 1.1.1(@types/dom-mediacapture-record@1.0.22)
+        specifier: latest
+        version: 1.1.5(@types/dom-mediacapture-record@1.0.22)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -224,8 +224,8 @@ packages:
     resolution: {integrity: sha512-lv9+UZPnl/KOvShepevLWm3+/wc1It5kgO5Q580evnvOFMZcgKVEYFwxlL7Ohl9my1yjTsWo28N3PJYUEO8wFQ==}
     hasBin: true
 
-  '@dynaris/widget@1.1.1':
-    resolution: {integrity: sha512-mvwefSdoX2KNfe6QKF8UeIqyhHvqjyTA6cKCeEr7EFKbI57KHJt17GVLSIHXDfFK6uPjc4x1AaB30nm6q1pFDg==}
+  '@dynaris/widget@1.1.5':
+    resolution: {integrity: sha512-13qS6d7Zje5MJfUBFPdW5i0dHmzf0mDPDyNbJIME+52vLCLm/41iMull1GULaNkxr10+PIc5ykfWyGJ/xFcw9w==}
 
   '@ecies/ciphers@0.2.5':
     resolution: {integrity: sha512-GalEZH4JgOMHYYcYmVqnFirFsjZHeoGMDt9IxEnM9F7GRUUyUksJ7Ou53L83WHJq3RWKD3AcBpo0iQh0oMpf8A==}
@@ -4052,7 +4052,7 @@ snapshots:
       picomatch: 4.0.4
       which: 4.0.0
 
-  '@dynaris/widget@1.1.1(@types/dom-mediacapture-record@1.0.22)':
+  '@dynaris/widget@1.1.5(@types/dom-mediacapture-record@1.0.22)':
     dependencies:
       livekit-client: 2.18.1(@types/dom-mediacapture-record@1.0.22)
     transitivePeerDependencies:
